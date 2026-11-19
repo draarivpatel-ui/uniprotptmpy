@@ -19,7 +19,6 @@ if TYPE_CHECKING:
 
 type LinkTarget = Literal["psimod", "unimod"]
 
-LINK_TARGETS: tuple[LinkTarget, ...] = ("psimod", "unimod")
 INSTALL_HINT = 'pip install "uniprotptmpy[link]"'
 
 # Each database accepts only its own prefix (or bare digits), so "UNIMOD:46" under
